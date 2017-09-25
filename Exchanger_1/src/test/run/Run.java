@@ -10,6 +10,7 @@ public class Run {
 		ThreadA a = new ThreadA(exchanger);
 		a.start();
 		System.out.println("main end!");
+		System.out.println("aaaa");
 	}
 
 }
